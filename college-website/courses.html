@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses | Techno Valley College</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">TVC<span>College</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html" class="active">Courses</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Courses</h1>
+      <p>Explore our wide range of programs</p>
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="container">
+      <div class="section-title">
+        <h2>Programs We Offer</h2>
+        <p>Choose the course that matches your career goals</p>
+      </div>
+
+      <div class="course-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="engineering">Engineering</button>
+        <button class="filter-btn" data-filter="management">Management</button>
+        <button class="filter-btn" data-filter="arts">Arts & Science</button>
+      </div>
+
+      <div class="course-grid">
+        <div class="course-card" data-category="engineering">
+          <span class="duration">4 Years</span>
+          <h3>B.Tech Computer Science</h3>
+          <p>
+            Comprehensive program covering programming, algorithms, AI, and
+            software engineering.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-code"></i> Full Stack Development</li>
+            <li><i class="fa-solid fa-brain"></i> Artificial Intelligence</li>
+            <li><i class="fa-solid fa-network-wired"></i> Cyber Security</li>
+            <li><i class="fa-solid fa-mobile-screen"></i> App Development</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="engineering">
+          <span class="duration">4 Years</span>
+          <h3>B.Tech Electrical Engineering</h3>
+          <p>
+            Focus on power systems, electronics, control systems, and
+            renewable energy technologies.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-bolt"></i> Power Systems</li>
+            <li><i class="fa-solid fa-microchip"></i> VLSI Design</li>
+            <li><i class="fa-solid fa-solar-panel"></i> Renewable Energy</li>
+            <li><i class="fa-solid fa-robot"></i> Automation</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="engineering">
+          <span class="duration">4 Years</span>
+          <h3>B.Tech Civil Engineering</h3>
+          <p>
+            Structural design, construction management, and infrastructure
+            development with modern tools.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-hard-hat"></i> Structural Engineering</li>
+            <li><i class="fa-solid fa-city"></i> Urban Planning</li>
+            <li><i class="fa-solid fa-hammer"></i> Construction Mgmt</li>
+            <li><i class="fa-solid fa-water-ladder"></i> Water Resources</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="engineering">
+          <span class="duration">4 Years</span>
+          <h3>B.Tech Biotechnology</h3>
+          <p>
+            Combines biology with technology for healthcare, agriculture, and
+            environmental applications.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-dna"></i> Genetic Engineering</li>
+            <li><i class="fa-solid fa-flask"></i> Bioprocess Tech</li>
+            <li><i class="fa-solid fa-seedling"></i> Agricultural Bio</li>
+            <li><i class="fa-solid fa-vial"></i> Pharmaceutical</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="management">
+          <span class="duration">3 Years</span>
+          <h3>Bachelor of Business Admin</h3>
+          <p>
+            Foundation in management principles, marketing, finance, and
+            entrepreneurship.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-chart-pie"></i> Marketing</li>
+            <li><i class="fa-solid fa-money-bill-wave"></i> Finance</li>
+            <li><i class="fa-solid fa-hand-holding-dollar"></i> HR Mgmt</li>
+            <li><i class="fa-solid fa-lightbulb"></i> Entrepreneurship</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="management">
+          <span class="duration">2 Years</span>
+          <h3>Master of Business Admin</h3>
+          <p>
+            Advanced management with specializations in finance, marketing,
+            operations, and strategy.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-layer-group"></i> Operations</li>
+            <li><i class="fa-solid fa-users"></i> Human Resources</li>
+            <li><i class="fa-solid fa-chart-line"></i> Business Analytics</li>
+            <li><i class="fa-solid fa-globe"></i> International Biz</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="arts">
+          <span class="duration">3 Years</span>
+          <h3>Bachelor of Science</h3>
+          <p>
+            Specializations in Physics, Chemistry, Mathematics, and Computer
+            Science.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-atom"></i> Physics</li>
+            <li><i class="fa-solid fa-flask"></i> Chemistry</li>
+            <li><i class="fa-solid fa-calculator"></i> Mathematics</li>
+            <li><i class="fa-solid fa-laptop-code"></i> Computer Science</li>
+          </ul>
+        </div>
+
+        <div class="course-card" data-category="arts">
+          <span class="duration">3 Years</span>
+          <h3>Bachelor of Arts</h3>
+          <p>
+            Programs in English, History, Economics, and Political Science.
+          </p>
+          <ul>
+            <li><i class="fa-solid fa-book-open-reader"></i> English Lit</li>
+            <li><i class="fa-solid fa-landmark"></i> History</li>
+            <li><i class="fa-solid fa-money-check-dollar"></i> Economics</li>
+            <li><i class="fa-solid fa-scale-balanced"></i> Political Science</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Not Sure Which Course to Choose?</h2>
+      <p>Our counselors can help you find the right program for your goals</p>
+      <a href="contact.html" class="btn btn-primary" style="padding: 15px 40px; font-size: 1.1rem;">
+        Talk to a Counselor
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">TVC<span>College</span></div>
+          <p>
+            Providing quality education with modern facilities and a
+            student-friendly environment.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="admissions.html">Admissions</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              Techno Valley City, Tamil Nadu 600001
+            </li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              info@techovalleycollege.edu
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Techno Valley College. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+```
+
+All pages created. Now let me add everything to git and push to GitHub:
+<tool_call>
+<function=shell>

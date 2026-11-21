@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admissions | Techno Valley College</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">TVC<span>College</span></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="admissions.html" class="active">Admissions</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-header">
+    <div class="container">
+      <h1>Admissions</h1>
+      <p>Join our next batch of achievers</p>
+    </div>
+  </section>
+
+  <section class="admissions">
+    <div class="container">
+      <div class="admission-grid">
+        <div class="admission-info">
+          <h2>Admission Process</h2>
+          <p>
+            Ready to begin your academic journey? Follow these simple steps to
+            apply for admission at Techno Valley College.
+          </p>
+
+          <div class="steps">
+            <div class="step">
+              <div class="step-number">1</div>
+              <div class="step-content">
+                <h3>Choose Your Course</h3>
+                <p>
+                  Browse our courses page and select the program that matches
+                  your career aspirations.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div class="step-content">
+                <h3>Check Eligibility</h3>
+                <p>
+                  Review the eligibility criteria for your chosen course and
+                  prepare required documents.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div class="step-content">
+                <h3>Submit Application</h3>
+                <p>
+                  Fill out the online application form with accurate details
+                  and upload documents.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">4</div>
+              <div class="step-content">
+                <h3>Admission Confirmation</h3>
+                <p>
+                  Receive your admission offer letter and complete the
+                  enrollment formalities.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="eligibility">
+            <h3>Eligibility Criteria</h3>
+            <ul class="eligibility-list">
+              <li><i class="fa-solid fa-certificate"></i> Passed 10+2 or equivalent from a recognized board</li>
+              <li><i class="fa-solid fa-percentage"></i> Minimum 50% aggregate marks (45% for reserved category)</li>
+              <li><i class="fa-solid fa-calendar-days"></i> Age between 17 and 25 years at the time of admission</li>
+              <li><i class="fa-solid fa-file-signature"></i> Transfer certificate and migration certificate (if applicable)</li>
+            </ul>
+          </div>
+
+          <div class="form-note">
+            <i class="fa-solid fa-info-circle"></i>
+            <p>
+              Admissions for the 2026-27 academic year are now open. Apply
+              before <strong>July 31, 2026</strong> to secure your seat.
+            </p>
+          </div>
+        </div>
+
+        <div class="admission-form">
+          <div class="form-card">
+            <h2>Apply Online</h2>
+            <form class="admission-form" id="admission-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Full Name</label>
+                  <input type="text" name="fullName" required placeholder="Enter your full name" />
+                </div>
+                <div class="form-group">
+                  <label>Date of Birth</label>
+                  <input type="date" name="dob" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Email Address</label>
+                  <input type="email" name="email" required placeholder="you@example.com" />
+                </div>
+                <div class="form-group">
+                  <label>Phone Number</label>
+                  <input type="tel" name="phone" required placeholder="+91 XXXXX XXXXX" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Select Course</label>
+                <select name="course" required>
+                  <option value="">-- Choose a course --</option>
+                  <option value="btech-cs">B.Tech Computer Science</option>
+                  <option value="btech-ee">B.Tech Electrical Engineering</option>
+                  <option value="btech-ce">B.Tech Civil Engineering</option>
+                  <option value="btech-bt">B.Tech Biotechnology</option>
+                  <option value="bba">Bachelor of Business Administration</option>
+                  <option value="mba">Master of Business Administration</option>
+                  <option value="bsc">Bachelor of Science</option>
+                  <option value="ba">Bachelor of Arts</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>10+2 Percentage</label>
+                <input type="number" name="percentage" min="0" max="100" required placeholder="Enter your percentage" />
+              </div>
+              <div class="form-group">
+                <label>Address</label>
+                <textarea name="address" rows="3" required placeholder="Enter your complete address"></textarea>
+              </div>
+              <div class="form-group">
+                <label>Parent/Guardian Name</label>
+                <input type="text" name="parentName" required placeholder="Parent or guardian full name" />
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Submit Application
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="logo">TVC<span>College</span></div>
+          <p>
+            Providing quality education with modern facilities and a
+            student-friendly environment.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              Techno Valley City, Tamil Nadu 600001
+            </li>
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              admissions@techovalleycollege.edu
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Techno Valley College. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+```
+
+All pages created. Now let me add everything to git and push to GitHub:
+<tool_call>
+<function=shell>
